@@ -50,7 +50,7 @@ def contain_no_banned_words(value):
         'timeless', 'viet', 'legal', 'expert', 'solution',
         'money', 'dental', 'earn', 'tourister',
         'bandar', 'indonesia', 'credit', 'hitam', 
-        'game', '88', '789'
+        'game', '88', '789', 'dubai', 'delhi', 'apk'
         ]
     for w in words:
         if re.findall(w, value, re.I):
